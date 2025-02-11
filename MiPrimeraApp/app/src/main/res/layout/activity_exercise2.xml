@@ -106,13 +106,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#5C6BC0" />
+                android:background="#EB3CBB" />
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#1C7DEB" />
+                android:background="#1CEB68" />
             <View
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -122,7 +122,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#1C7DEB" />
+                android:background="#EB6F1C" />
 
         </LinearLayout>
 
