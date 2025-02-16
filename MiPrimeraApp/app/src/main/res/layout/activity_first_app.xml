@@ -8,14 +8,31 @@
     android:orientation="vertical"
     tools:context=".FirstAppActivity">
 
-    <View
-        android:layout_width="125dp"
-        android:layout_height="125dp"
-        android:background="@color/black"
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnFirstApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etFirstApp"
+        android:layout_marginBottom="32dp"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"
+        app:layout_constraintBottom_toTopOf="@+id/btnFirstApp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.85" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
