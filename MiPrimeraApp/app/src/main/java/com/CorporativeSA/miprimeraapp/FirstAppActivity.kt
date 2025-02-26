@@ -1,5 +1,6 @@
 package com.CorporativeSA.miprimeraapp
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import androidx.activity.enableEdgeToEdge
@@ -18,7 +19,14 @@ class FirstAppActivity : AppCompatActivity() {
         val etFirstApp = findViewById<AppCompatEditText>(R.id.etFirstApp)
 
         btnFirstApp.setOnClickListener{
-            Log.i("FirstAppActivity", "Hola ${etFirstApp.text.toString()}")
+            val name = etFirstApp.text.toString()
+
+            if(!name.isEmpty()){
+                val intent = Intent(this, ResultActivity::class.java)
+                intent.putExtra("textName", name)
+                startActivity(intent)
+            }
+
 
         }
     }
