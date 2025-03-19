@@ -13,6 +13,9 @@
         android:theme="@style/Theme.MiPrimeraApp"
         tools:targetApi="31">
         <activity
+            android:name=".imcCalculator.ImcCalculatorActivity"
+            android:exported="false" />
+        <activity
             android:name=".MenuActivity"
             android:exported="true">
             <intent-filter>
@@ -32,8 +35,7 @@
             android:exported="false" />
         <activity
             android:name=".FirstAppActivity"
-            android:exported="true">
-        </activity>
+            android:exported="true"></activity>
         <activity
             android:name=".Exercise3Activity"
             android:exported="true" />

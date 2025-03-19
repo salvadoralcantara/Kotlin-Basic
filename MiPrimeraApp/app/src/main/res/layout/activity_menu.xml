@@ -24,10 +24,10 @@
         android:text="Saludos" />
 
     <Button
-        android:id="@+id/btnOther"
+        android:id="@+id/btnImcApp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="btn1" />
+        android:text="Calculador IMC" />
 
     <Button
         android:id="@+id/btnOther2"
